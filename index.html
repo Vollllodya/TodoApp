@@ -13,7 +13,7 @@
         <div class="center-wrapper">
             <section class="todo-list-wrapper">
                 <h2>Список дел:</h2>
-                <article>
+                <!-- <article>
                     <div class="controll-wrapper clearfix">
                         <h3>Купить лошадь</h3>
 
@@ -27,9 +27,9 @@
                     <p>
                         По цене 300 т.р. за штуку
                     </p>
-                </article>
+                </!-->
                 
-                <article>
+                <!-- <article>
                     <div class="controll-wrapper clearfix">
                         <h3>Позвонить маме</h3>
 
@@ -43,7 +43,8 @@
                     <p>
                         Пригласить в кино
                     </p>
-                </article>
+                </!-->
+                <p class ="empty-todo">Список пуст...</p>
             </section>
 
             <section class="add-todo-wrapper">
@@ -52,12 +53,12 @@
                     <label for="title">
                         <sup>*</sup> Название
                     </label>
-                    <input id="title" type="text" name="title">
+                    <input id="title" type="text" name="title" required>
 
                     <label for="description">
                         <sup>*</sup> Описание
                     </label>
-                    <textarea id="description" name="description" cols="30" rows="10"></textarea>
+                    <textarea id="description" name="description" cols="30" rows="10" required></textarea>
 
                     <input class="add-btn" type="submit" value="Добавить дело">
                 </form>

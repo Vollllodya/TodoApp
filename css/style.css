@@ -36,13 +36,15 @@ article {
     background: #fff;
     margin: 20px 0 0 ;
     min-height: 136px;
-    /* padding: 15px; */
 }
 
 p {
-    padding: 7px 0 0 19px;
+    position: relative;
+    z-index: 7;
+    padding: 7px 19px 10px 19px;
     color: #8993ad;
     font-size: 14px;
+    word-break: break-all;
 }
 
 .controll-wrapper>* {
@@ -54,6 +56,8 @@ p {
 
 
 .controll-wrapper {
+    position: relative;
+    z-index: 10;
     border-bottom: 1px solid #bbbbbb;
 }
 
@@ -121,7 +125,13 @@ input, textarea {
     border: 1px solid #f6f6f6;
     background: #fcfcfc;
     resize: none;
+    padding: 0 14px;
     margin: 5px 0 10px;
+    font-size: 14px;
+}
+
+input {
+    font-size: 16px;
 }
 
 #title {
